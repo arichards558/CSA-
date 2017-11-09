@@ -1,22 +1,21 @@
 
 /**
- * Write a description of class Song here.
+ * Write a description of class Books here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Song
+public class Books
 {
     // instance variables - replace the example below with your own
     private int rating;
     private String title;
-
     /**
-     * Constructor for objects of class Song
+     * Constructor for objects of class Books
      */
-    public Song()
+    public Books()
     {
-        title = "";
+        title = "";// initialise instance variables
         rating = 0;
     }
     public String getTitle(){
@@ -33,4 +32,6 @@ public int getRating(){
 public void setRating(int r) {
     rating = r;
 }
+
+    
 }
